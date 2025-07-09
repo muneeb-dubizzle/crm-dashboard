@@ -1,58 +1,87 @@
-# Nexa CRM Dashboard
+# Welcome to React Router!
 
-A responsive, modern CRM (Customer Relationship Management) dashboard built using **React** and **Chart.js**. This project showcases key business metrics, transactions, support tickets, and customer demographics through a clean and modular interface.
+A modern, production-ready template for building full-stack React applications using React Router.
 
-## ✨ Features
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
 
-- 📊 Revenue trend line chart using Chart.js
-- 🎯 Sales distribution via custom SVG charts
-- 📋 Transactions and support tickets table
-- 🌍 Customer demographic map section
-- 🔍 Search bar and user profile in header
-- 🧱 Fully component-based React architecture
-- 💅 Styled using CSS variables and responsive layout
+## Features
 
-## 🚀 Tech Stack
+- 🚀 Server-side rendering
+- ⚡️ Hot Module Replacement (HMR)
+- 📦 Asset bundling and optimization
+- 🔄 Data loading and mutations
+- 🔒 TypeScript by default
+- 🎉 TailwindCSS for styling
+- 📖 [React Router docs](https://reactrouter.com/)
 
-- React (Vite)
-- Chart.js
-- CSS Modules (or Tailwind, optional)
-- Google Material Icons
-- HTML5 / CSS3
+## Getting Started
 
-## 📁 Folder Structure
+### Installation
 
-src/
-├── components/ # Reusable UI components
+Install the dependencies:
 
-├── styles/ # Global styles and variables
+```bash
+npm install
+```
 
-├── assets/ # Static assets
+### Development
 
-├── App.jsx # Main layout and routing
+Start the development server with HMR:
 
-└── main.jsx # Entry point
+```bash
+npm run dev
+```
 
+Your application will be available at `http://localhost:5173`.
 
+## Building for Production
 
-## 🔧 Setup Instructions
+Create a production build:
 
-1. Clone the repo
-   ```bash
-   git clone https://github.com/your-username/crm-dashboard.git
-   cd crm-dashboard
+```bash
+npm run build
+```
 
-2. Install dependencies
-   ```bash
-   npm install
-   
-3. Run the development server
-   ```bash
-   npm run dev
+## Deployment
 
-4. Open http://localhost:5173 to view the app.
-   
-   ![image](https://github.com/user-attachments/assets/2696cc85-6907-4d1a-a44c-6dc5da7d9436)
-   
+### Docker Deployment
 
-Let me know if you'd like a badge section, live deployment info (e.g., Vercel/Netlify), or screenshot mockups for GitHub.
+To build and run using Docker:
+
+```bash
+docker build -t my-app .
+
+# Run the container
+docker run -p 3000:3000 my-app
+```
+
+The containerized application can be deployed to any platform that supports Docker, including:
+
+- AWS ECS
+- Google Cloud Run
+- Azure Container Apps
+- Digital Ocean App Platform
+- Fly.io
+- Railway
+
+### DIY Deployment
+
+If you're familiar with deploying Node applications, the built-in app server is production-ready.
+
+Make sure to deploy the output of `npm run build`
+
+```
+├── package.json
+├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
+├── build/
+│   ├── client/    # Static assets
+│   └── server/    # Server-side code
+```
+
+## Styling
+
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+
+---
+
+Built with ❤️ using React Router.
