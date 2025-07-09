@@ -1,0 +1,14 @@
+:root {
+    --sidebar-bg: #333745;
+    --sidebar-color: #EEF5DB;
+    --bg-color: #EEF5DB;
+    --card-bg: #ffffff;
+    --primary-color: #E63462;
+    --secondary-color: #FE5F55;
+    --accent-color: #C7EFCF;
+    --tertiary-color: #333745;
+    --text-color: #333745;
+    --border-radius: 8px;
+    --shadow: 0 2px 8px rgba(230, 52, 98, 0.2);
+    --font-base: 0.9rem;
+}
