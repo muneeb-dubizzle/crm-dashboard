@@ -24,10 +24,15 @@ A responsive, modern CRM (Customer Relationship Management) dashboard built usin
 
 src/
 ├── components/ # Reusable UI components
+
 ├── styles/ # Global styles and variables
+
 ├── assets/ # Static assets
+
 ├── App.jsx # Main layout and routing
+
 └── main.jsx # Entry point
+
 
 
 ## 🔧 Setup Instructions
